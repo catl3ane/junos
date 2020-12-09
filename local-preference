@@ -7,7 +7,7 @@ set policy-options policy-statement TOPNET-DEF-IN then local-preference 250
 set policy-options policy-statement TOPNET-IN then local-preference 250
 set policy-options policy-statement TOPNET-IN-FULLVIEW then local-preference 250
 set policy-options policy-statement TOPNET-IN-UAIX then local-preference 295
-set policy-options policy-statement TOPNET-IN-UAIX then local-preference 280
+set policy-options policy-statement TOPNET-IN-UAIX then local-preference 295
 set policy-options policy-statement TOPNET-IN-UAIX then local-preference 295
 set policy-options policy-statement TOPNET-UAIX-BACK-IN then local-preference 280
 set policy-options policy-statement TOPNET-UAIX-TRANSIT-IN then local-preference 285
