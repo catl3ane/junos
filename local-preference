@@ -1,0 +1,14 @@
+set policy-options policy-statement DG-IN then local-preference 200
+set policy-options policy-statement PROLINE-IN-DTEL then local-preference 250
+set policy-options policy-statement PROLINE-IN-DataIX then local-preference 270
+set policy-options policy-statement PROLINE-IN-FULLVIEW then local-preference 270
+set policy-options policy-statement PROLINE-IN-UAIX then local-preference 290
+set policy-options policy-statement TOPNET-DEF-IN then local-preference 250
+set policy-options policy-statement TOPNET-IN then local-preference 250
+set policy-options policy-statement TOPNET-IN-FULLVIEW then local-preference 250
+set policy-options policy-statement TOPNET-IN-UAIX then local-preference 280
+set policy-options policy-statement TOPNET-UAIX-BACK-IN then local-preference 280
+set policy-options policy-statement TOPNET-UAIX-TRANSIT-IN then local-preference 285
+set policy-options policy-statement customer-AS21354-in term default then local-preference 300
+set policy-options policy-statement customer-in term default then local-preference 295
+set policy-options policy-statement transit-in term default then local-preference 180
